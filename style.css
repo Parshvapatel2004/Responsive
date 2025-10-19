@@ -261,6 +261,70 @@ main section.view6 .card:nth-child(2) {
 main section.view6 .card:nth-child(3) {
   background-image: url(./img6.webp);
 }
+main section.view7 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+main section.view7 .top {
+  width: 100%;
+}
+main section.view7 .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+main section.view7 .bottom {
+  border-radius: 0.7rem;
+  background-color: #1e1e1e;
+  width: 100%;
+}
+main section.view7 .bottom .element {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 2rem;
+}
+main section.view7 .bottom .element h1 {
+  font-size: 2rem;
+}
+main section.view7 .bottom .button {
+  display: flex;
+  padding: 2rem;
+}
+main section.view7 .bottom .button button {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+main section.view8 {
+  width: 100%;
+  padding: 1rem;
+}
+main section.view8 .text {
+  color: black;
+  background-color: #cebd63;
+  border-radius: 0.7rem;
+  padding: 2rem;
+  width: 100%;
+}
+main section.view8 .text p {
+  font-size: 1.2rem;
+}
+main section.view8 .text h1 {
+  font-size: 2.5rem;
+}
+main section.view8 .button {
+  padding: 1.4rem;
+}
+main section.view8 .button button {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.8rem;
+  width: 100%;
+}
 
 @media (min-width: 900px) {
   main section.view1 {
@@ -326,5 +390,38 @@ main section.view6 .card:nth-child(3) {
   main section.view6 {
     flex-direction: row;
     padding: 1rem 4rem;
+  }
+  main section.view7 {
+    flex-direction: row;
+    padding: 1rem 4rem;
+  }
+  main section.view7 .top,
+  main section.view7 .bottom {
+    width: 50%;
+  }
+  main section.view7 .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  main section.view7 .bottom .element h1 {
+    font-size: 3rem;
+  }
+  main section.view8 {
+    position: relative;
+    width: 93%;
+  }
+  main section.view8 .text {
+    padding: 1rem 4rem;
+  }
+  main section.view8 .text h1 {
+    font-size: 3.5rem;
+  }
+  main section.view8 .button button {
+    position: absolute;
+    width: 30%;
+    bottom: 30%;
+    left: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
